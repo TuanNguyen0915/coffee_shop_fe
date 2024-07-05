@@ -1,4 +1,7 @@
 import { motion } from "framer-motion"
+import phone from "../../assets/images/website/phone_img.png"
+import appleStore from "../../assets/images/website/app_store.png"
+import googlePlayStore from "../../assets/images/website/play_store.png"
 const Download = () => {
   return (
     <div className="container my-40 flex justify-between max-lg:flex-col-reverse">
@@ -13,7 +16,7 @@ const Download = () => {
             stiffness: 100,
             damping: 10,
           }}
-          src="/src/assets/images/website/phone_img.png"
+          src={phone}
           className="scale-75 max-lg:scale-50"
         />
       </div>
@@ -58,7 +61,7 @@ const Download = () => {
                 stiffness: 100,
                 damping: 10,
               }}
-              src="/src/assets/images/website/app_store.png"
+              src={appleStore}
               className="max-lg:scale-75"
             />
           </div>
@@ -73,7 +76,7 @@ const Download = () => {
                 stiffness: 100,
                 damping: 10,
               }}
-              src="/src/assets/images/website/play_store.png"
+              src={googlePlayStore}
               className="max-lg:scale-75"
             />
           </div>

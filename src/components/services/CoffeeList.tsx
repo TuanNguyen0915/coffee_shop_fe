@@ -1,5 +1,7 @@
 import { motion } from "framer-motion"
-
+import blackCoffee from "../../assets/images/black_coffee.png"
+import milkCoffee from "../../assets/images/milk_coffee.png"
+import eggCoffee from "../../assets/images/egg_coffee.png"
 const CoffeeList = () => {
   return (
     <div className="mb-16 grid w-full grid-cols-1 place-items-center gap-4 lg:grid-cols-2 xl:grid-cols-3">
@@ -10,7 +12,7 @@ const CoffeeList = () => {
         className="flex flex-col items-center justify-center gap-4 xl:translate-y-20"
       >
         <img
-          src="/src/assets/images/black_coffee.png"
+          src={blackCoffee}
           className="h-[300px] w-[400px]"
         />
         <p className="text-primaryDark text-3xl font-semibold capitalize">
@@ -30,7 +32,7 @@ const CoffeeList = () => {
         className="flex flex-col items-center justify-center gap-4"
       >
         <img
-          src="/src/assets/images/milk_coffee.png"
+          src={milkCoffee}
           className="h-[300px] w-[400px]"
         />
         <p className="text-primaryDark text-3xl font-semibold capitalize">
@@ -51,7 +53,7 @@ const CoffeeList = () => {
         className="flex flex-col items-center justify-center gap-4 xl:translate-y-20"
       >
         <img
-          src="/src/assets/images/egg_coffee.png"
+          src={eggCoffee}
           className="h-[300px] w-[400px]"
         />
         <p className="text-primaryDark text-3xl font-semibold capitalize">

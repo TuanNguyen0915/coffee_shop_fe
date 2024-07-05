@@ -6,7 +6,7 @@ import {
   FaTelegram,
   FaTwitter,
 } from "react-icons/fa6"
-
+import payment from "../../assets/images/website/payment_methods.webp"
 const FooterSocial = () => {
   return (
     <motion.div
@@ -39,7 +39,7 @@ const FooterSocial = () => {
         />
       </div>
       <p className="text-2xl font-semibold">Payment Methods</p>
-      <img src="/src/assets/images/website/payment_methods.webp" />
+      <img src={payment} />
     </motion.div>
   )
 }
