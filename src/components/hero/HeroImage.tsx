@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import heroImg from '../../assets/images/hero_img.png'
 const HeroImage = () => {
   return (
     <div className="relative z-30 flex items-center justify-center">
@@ -15,7 +16,7 @@ const HeroImage = () => {
         transition={{
           duration: 1.5,
         }}
-        src="src/assets/images/hero_img.png"
+        src={heroImg}
         alt="coffee"
         className="img-shadow hover:img-shadow2 z-20 transition-all max-lg:h-[70%] max-lg:w-[70%]"
       />
