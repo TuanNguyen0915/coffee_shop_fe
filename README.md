@@ -1,5 +1,13 @@
 # CREATE A FRONT END FOR COFFEE SHOP
 
+## Clone the project
+
+```
+git clone https://github.com/TuanNguyen0915/coffee_shop_fe.git
+cd coffee_shop_fe
+npm i
+```
+
 ## Using Vite
 
 ### Template react and typescript
@@ -14,7 +22,9 @@ npm create vite@latest
 npm install -D tailwindcss postcss autoprefixer prettier-plugin-tailwindcss
 npx tailwindcss init -p
 ```
+
 [tailwindcss docs](https://tailwindcss.com/)
+
 #### prettier_plugin_tailwindcss: using this to format the tailwindcss by prettier
 
 #### Create a file .prettierrc at root folder, then paste the code below
